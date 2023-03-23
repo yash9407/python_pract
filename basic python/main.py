@@ -90,7 +90,7 @@ while a<10:
 
 # question 6
 
-a = int(input("enter a number : "))
+'''a = int(input("enter a number : "))
 b = int(input("enter another number : "))
 
 # if a<b:
@@ -101,7 +101,7 @@ b = int(input("enter another number : "))
 # else:
 #     while(a>b):
 #         if b%2==0:
-#             print(b)
+#             print(b) 
 #         b = b+1
 
 start = min(a,b)
@@ -110,4 +110,30 @@ end = max(a,b)
 while(start <= end):
     if start%2==0:
         print(start)
-    start+=1
+    start+=1'''
+
+
+# LIST  
+# WHILE
+'''marks = [95, 95, 98, 100]
+i = 0
+while i<len(marks):
+    print(marks[i])
+    i = i + 1
+'''
+# FOR
+# 1st
+'''students = ['kishan','radha','shyam','ram','radhika']
+for student in students:
+    if student == 'ram':
+        break;
+    print(student)
+'''
+
+# 2nd
+
+students = ['kishan','radha','shyam','ram','radhika']
+for student in students:
+    if student == 'ram':
+        continue
+    print(student)
